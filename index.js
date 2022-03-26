@@ -35,7 +35,7 @@ app.post("/send_mail", cors(), async (req, res) => {
 
     await transport.sendMail({
         from: process.env.MAIL_FROM,
-        to: "donald.leblanc@gmail.com",
+        to: "support@argistech.com",
         subject: "test email",
         html: `<div className="email" style="
                 border: 1px solid black;
