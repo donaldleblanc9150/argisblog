@@ -15,7 +15,7 @@ export default function Contact() {
   const handleSend = async() => {
     setSent(true);
     try{
-      await axiosInstance.post("http://localhost:4000/send_mail",{
+      await axiosInstance.post("/send_mail",{
         text,
         name,
         email,

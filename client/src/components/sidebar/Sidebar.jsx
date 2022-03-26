@@ -29,7 +29,6 @@ export default function Sidebar() {
              ARGIS Tech provides custom software solutions for your needs. We are headquartered in San Antonio, Texas 
              which has a colloquial name of "Military City, USA!" We are proud to call this our home!</p>
 
-          
           <p>We utilize technology platforms such as Python, Django, flask, jQuery, Ajax, MongoDb, CSS, NeXt, 
              NodeJs, JavaScript, React, MySQL, Express, Git, SocketIo, C#, .NET Core, HTML5, and much more</p>
       </div>
@@ -47,7 +46,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
           <span className="sidebarTitle">FOLLOW US</span>
           <div className="sidebarSocial">
-            <i className="sidebarIcon fa-brands fa-facebook-square"></i>
+            <a href="https://www.facebook.com/ARGISTech/" target="_blank" rel="noopener noreferrer"><i className="sidebarIcon fa-brands fa-facebook-square"></i></a>
             <i className="sidebarIcon fa-brands fa-twitter-square"></i>
             <i className="sidebarIcon fa-brands fa-pinterest-square"></i>
             <i className="sidebarIcon fa-brands fa-instagram-square"></i>
