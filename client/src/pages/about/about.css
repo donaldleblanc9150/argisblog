@@ -1,0 +1,31 @@
+.about{
+    height: calc(100vh - 50px);
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ),
+    url("https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?cs=srgb&dl=pexels-picjumbocom-461077.jpg&fm=jpg&w=1500");
+    background-size: cover;
+}
+
+.aboutTitle{
+    font-size: 50px;
+}
+
+.aboutUsText{
+    font-size: 30px;
+    height: 100vh;
+}
+
+.aboutUsParagraph{
+    position: relative;
+    margin: 100px 50px;
+    display: flex;
+    align-items: center;
+    
+}

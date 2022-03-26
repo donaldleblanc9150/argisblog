@@ -1,0 +1,62 @@
+.contact{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ),
+    url("https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?cs=srgb&dl=pexels-picjumbocom-461077.jpg&fm=jpg&w=1500");
+    background-size: cover;
+}
+.contactTitle{
+    font-size: 50px;
+}
+
+.contactInfo{
+    margin-top:inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm > label{
+    margin: 10px 0px;
+}
+
+.contactInput{
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.contactTextDesc:inherit{
+    /* padding: 5px; */
+    /* background-color: white;
+    border: none;
+    border-radius: 10px; */
+}
+
+.contactInput:focus{
+    outline: none;
+}
+
+.contactButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
